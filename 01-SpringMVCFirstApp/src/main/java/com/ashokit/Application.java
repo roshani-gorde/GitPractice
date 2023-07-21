@@ -9,5 +9,8 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
+	
+	// bug-200
+	System.out.println("hello 200");
 
 }
